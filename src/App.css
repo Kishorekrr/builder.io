@@ -191,6 +191,9 @@ body {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  overflow-y: auto;
+  flex: 1;
+  max-height: calc(100vh - 240px);
 }
 
 .product-item {
